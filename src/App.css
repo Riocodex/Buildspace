@@ -1,0 +1,182 @@
+/* starting the nav */
+*{
+    font-family: 'Craftwork Sans';
+    /* src: url('./CraftworkSans-Bold.woff2') format('woff2'), url('./CraftworkSans-Bold.woff') format('woff'); */
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    --border :  2px solid rgb(179, 175, 175);
+}
+.fixed{
+  /* position: fixed; */
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  /* position: fixed; */
+  background-color:  rgba(0, 0, 0, 0);
+}
+.list-nav {
+  display: flex;
+}
+.list-nav > p{
+  padding: 10px;
+  font-size: 25px;
+  margin-top: 8px;
+}
+.nav-btn{
+  right: 20px;
+  padding: 10px;
+  margin-right: -100px;
+  margin-top: 5px;
+}
+.signup {
+  padding: 12px;
+  border-radius: 5px;
+  width: 120px;
+  background-color: white;
+  font-size: 15px;
+}
+.signup:hover{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+}
+.login{
+  padding: 9px;
+  margin-left: 5px;
+  border-radius: 5px;
+  width: 120px;
+  font-size: 15px;
+  background-color: black;
+  color: white;
+}
+.login:hover{
+  background-color: white;
+  color: black;
+  padding: 12px;
+  font-size: 15px;
+}
+/*------end of nav *-----*/
+
+
+/* starting the body */
+.body{
+  display: flex;
+}
+.firstSide > h1{
+  margin-left: 30px;
+}
+.header-body{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.first-slide{
+  display: flex;
+  width: 40%;
+  padding: 0px;
+  justify-content: space-around;
+  border:var(--border);
+  border-radius: 10px;
+  padding: 30px;
+}
+.image{
+    padding: 20px;
+}
+.image > img{
+  margin-right: -20px;
+}
+.left-side > h1{
+  font-size: 40px;
+  font-weight: 1000;
+}
+.left-side > p{
+  font-weight: 100;
+  font-size: 20px;
+  color: rgb(179, 175, 175);
+  
+}
+.left-side > h3{
+  background-color: pink;
+  width: 100px;
+  padding: 5px;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.text-slide{
+  font-size: 150px;
+}
+
+
+/* end of the body */
+
+/* starting the second body */
+.secondSide > h1{
+  margin-left: 30px;
+}
+
+.explore{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.explore-box{
+  width: 23%;
+  /* height: 0%; */
+}
+.explore-box-img > img{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+}
+.explore-box-text{
+  border: var(--border);
+  margin-top: -10px;
+}
+.explore-box-text > h1{
+  font-size: 30px;
+  padding: 20px;
+  margin-top: -5px;
+  margin-left: 10px;
+}
+.decorative-buttons{
+  display: flex;
+  justify-content: center;
+}
+.decorative-buttons > button{
+  padding: 5px;
+  margin: 5px;
+  border:  2px solid rgb(179, 175, 175);
+  border-radius: 20px;
+  width: 40%;
+  background-color: transparent;
+  color:  rgb(179, 175, 175);
+}
+.explore-box-text > p{
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  color: rgb(179, 175, 175);
+  font-size: 20px;
+}
+.client-side{
+  display: flex;
+  margin-left: 23px;
+  margin-top: -30px;
+}
+.client-side > p{
+  color: rgb(179, 175, 175);
+  margin-left: 10px;
+}
+.explore-box-text #join-btn{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/* end of the second body */
